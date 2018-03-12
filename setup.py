@@ -14,20 +14,20 @@ def read(fname):
 
 
 META_DATA = {
-    'name': 'django-weed',
+    'name': 'django-weed2',
     'version': __version__,
     'description': "Weed-FS integration into Django as a storage",
     'long_description': read('README.md'),
     'license': 'MIT',
 
     'author': "Vlad Frolov",
-    'author_email': "frolvlad@gmail.com",
+    'author_email': "waipbmtd@gmail.com",
 
-    'url': "https://github.com/ProstoKSI/django-weed",
+    'url': "https://github.com/waipbmtd/django-weed",
 
     'packages': find_packages(),
 
-    'install_requires': ('django', 'pyweed>=0.3.3', ),
+    'install_requires': ('django', 'pyseaweed>=0.3.3', ),
 }
 
 if __name__ == "__main__":
