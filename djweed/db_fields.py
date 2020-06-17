@@ -4,7 +4,7 @@ try:
 except ImportError:  # Django 2.0
     from django.urls import reverse
 from django.db.models.fields.files import FieldFile, FileField
-from django.utils import six
+import six
 
 from .storage import WeedFSStorage
 
