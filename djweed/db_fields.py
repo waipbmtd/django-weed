@@ -1,7 +1,7 @@
 from django.contrib.contenttypes.models import ContentType
 from django.urls import reverse
 from django.db.models.fields.files import FieldFile, FileField
-from django.utils import six
+import six
 
 from .storage import WeedFSStorage
 

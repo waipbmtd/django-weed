@@ -20,14 +20,14 @@ META_DATA = {
     'long_description': read('README.md'),
     'license': 'MIT',
 
-    'author': "Vlad Frolov",
+    'author': "Devin",
     'author_email': "waipbmtd@gmail.com",
 
     'url': "https://github.com/waipbmtd/django-weed",
 
     'packages': find_packages(),
 
-    'install_requires': ('django', 'pyseaweed>=0.3.3', ),
+    'install_requires': ('django', 'pyseaweed>=0.3.3', 'six'),
 }
 
 if __name__ == "__main__":
